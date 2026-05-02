@@ -16,11 +16,18 @@ main {
 
 header {
   padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd8cc;
 }
 
 h1 {
   margin: 0 0 0.25rem 0;
   font-size: 2.2rem;
+  font-weight: normal;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
   font-weight: normal;
 }
 
@@ -43,7 +50,16 @@ nav a:hover {
   text-decoration: underline;
 }
 
-main p {
-  font-size: 1.1rem;
+main p,
+main li {
+  font-size: 1.08rem;
   max-width: 42rem;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
 }
