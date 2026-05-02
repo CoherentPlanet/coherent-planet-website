@@ -70,3 +70,15 @@ footer {
   color: #6a6a6a;
   font-size: 0.95rem;
 }
+.meta {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+main a {
+  color: #2f5d50;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
