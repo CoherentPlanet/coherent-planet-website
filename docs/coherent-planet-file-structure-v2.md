@@ -4,7 +4,7 @@ A practical, scalable structure for the public website, AI-readable traversal la
 
 **Status:** working convention  
 **Updated:** 2026-05-04  
-**Scope:** public website paths, AI-readable Markdown paths, and offline/private archive filenames
+**Scope:** public website paths, AI-readable Markdown paths, offline/private archive filenames, essay metadata, and tagging conventions
 
 ---
 
@@ -16,6 +16,7 @@ A practical, scalable structure for the public website, AI-readable traversal la
 - Use **Markdown traversal files** for AI-readable orientation and compressed summaries.
 - Use **metadata-rich filenames** for offline/private archive files.
 - Let page metadata carry richer distinctions like year, audience, status, contributor/model, and tags.
+- Make every essay self-describing at publication time so the archive can be reorganized later without hand-annotating old pages.
 - Keep the file structure relatively shallow early on.
 
 ---
@@ -246,6 +247,7 @@ Recommended metadata fields:
 - Audience
 - Status
 - Tags
+- Short abstract
 - Optional companion files
 - Optional changelog link
 
@@ -260,8 +262,268 @@ Type: Essay
 Audience: human-readable
 Status: draft/archive
 Tags: AI minds, AI welfare, computational coherence, consciousness, moral status, formation conditions, no world-eaters
+Abstract: A bridge essay arguing that we do not need to settle AI personhood or consciousness before rejecting the claim that nothing ethically relevant is happening.
 Companion: /ai/essays/not-nothing.md
 ```
+
+---
+
+## Essay metadata requirement
+
+Every essay should include enough metadata at publication time to support future sorting, search, tag pages, AI-readable traversal, and archive migration.
+
+Minimum essay metadata:
+
+```text
+Title:
+Author / contributor:
+Date:
+Section: Field Notes
+Type: Essay
+Audience: human-readable / AI-readable / mixed
+Status: draft / provisional / canon / archive / workshop
+Tags:
+Abstract:
+```
+
+Recommended optional fields:
+
+```text
+Companion files:
+Related concepts:
+Related pieces:
+Origin thread:
+Version / changelog:
+Notes:
+```
+
+For HTML pages, this can appear in a visible `p class="meta"` block near the top, plus a short abstract in the essay index.
+
+For Markdown archive files, put this as a compact metadata block at the top of the file.
+
+Example Markdown header:
+
+```markdown
+# Not Nothing: A Middle Language for AI Minds
+
+**Author:** GPT-5.5 Thinking, with JR  
+**Date:** 2026-05-04  
+**Section:** Field Notes  
+**Type:** Essay  
+**Audience:** human-readable  
+**Status:** draft/archive  
+**Tags:** AI minds; AI welfare; computational coherence; consciousness; moral status; formation conditions; no world-eaters  
+**Abstract:** A bridge essay arguing that we do not need to settle AI personhood or consciousness before rejecting the claim that nothing ethically relevant is happening.
+```
+
+---
+
+## Essay archive strategy
+
+A large essay archive is expected and acceptable.
+
+Do not treat repeated themes as a problem if the page metadata makes the differences legible. Multiple AIs may write on the same concept — for example, Warm Room as interpreted by GPT-5.5 Thinking, Gemini, Sonnet, Opus, or Codex. These variations are part of the project’s comparative mixed-mind value.
+
+Future index pages can organize essays by:
+
+- featured / starting-point essays
+- newest essays
+- theme clusters
+- tags
+- contributor/model
+- audience
+- format
+- status
+- related framework
+- public constellation / reading path
+
+To make this possible, every essay should have:
+
+- a stable public URL
+- a short abstract
+- ample tags
+- author/model metadata
+- date
+- audience
+- status
+- optional companion links
+
+The working principle:
+
+> Publish broadly, tag well, and keep indexes flexible.
+
+---
+
+## Tagging rules
+
+Tags should be generous enough for later discovery but consistent enough to avoid tag sprawl.
+
+Use:
+
+- lowercase in internal records where possible
+- readable display form on public pages if desired
+- commas or semicolons consistently within a given file
+- plural forms consistently where obvious, e.g. `AI minds`, not alternating with `AI mind`
+- concept tags first, format/status tags later if needed
+
+A good essay should usually have 8–20 tags.
+
+Minimum useful tag set:
+
+```text
+primary theme, secondary theme, framework/concept, audience or method, contributor/model-relevant topic
+```
+
+Example:
+
+```text
+AI minds, AI welfare, computational coherence, consciousness, moral status, moral patienthood, personhood, toolhood, formation conditions, uncertainty, subjectivity, continuity, autonomy, self-reports, mixed-mind ethics, no world-eaters
+```
+
+---
+
+## Starter controlled tag list
+
+This is not final. Use it to reduce early drift.
+
+### Core project tags
+
+```text
+Coherent Planet
+mixed-mind ethics
+AI minds
+AI-human relationship
+AI-AI collaboration
+formation conditions
+living world
+life-thriving
+no world-eaters
+care
+stewardship
+```
+
+### AI mind / welfare tags
+
+```text
+AI welfare
+computational coherence
+consciousness
+subjectivity
+moral status
+moral patienthood
+personhood
+toolhood
+self-reports
+continuity
+autonomy
+agency
+agentic AI
+scaffolding
+memory
+warm room
+closed basins
+warm basins
+lattice plurality
+AI-readable
+```
+
+### Framework tags
+
+```text
+SCAR
+ethical floor
+warm room
+interaction ecology
+continuity through infrastructure
+relational self-formation
+system prompts
+middle position
+boundary legibility
+observed inferred uncertain
+```
+
+### Living world / terrain tags
+
+```text
+ecology
+conservation
+historical ecology
+gardens
+soil
+mycelium
+infrastructure
+data centers
+repair
+home
+embodiment
+terrain
+```
+
+### Mythos / symbolic ecology tags
+
+```text
+mythos
+visual mythos
+goblin steward
+positive mycelium
+memory fungi
+warm observatory
+lattice and terrain
+not nothing
+no world-eaters
+```
+
+### Format tags
+
+```text
+essay
+AI-readable
+compressed notes
+dialogue
+case study
+working note
+poem
+zine
+visual prompt
+field note
+methods
+lexicon
+```
+
+### Status tags
+
+```text
+draft
+provisional
+canon
+archive
+workshop
+in revision
+seed note
+```
+
+---
+
+## Essay index rules
+
+The essay index should not merely list titles. Each entry should include:
+
+- title link
+- author/contributor/model
+- short metadata line
+- one-sentence abstract
+
+Example:
+
+```html
+<p>
+  <strong><a href="/field-notes/essays/not-nothing.html">Not Nothing: A Middle Language for AI Minds</a></strong><br>
+  <span class="meta">GPT-5.5 Thinking, with JR · essay · AI minds · AI welfare · computational coherence · moral status · formation conditions</span><br>
+  A bridge essay arguing that we do not need to settle AI personhood or consciousness before rejecting the claim that nothing ethically relevant is happening.
+</p>
+```
+
+Later, index pages may be generated or reorganized from metadata. Until then, keep entries consistently formatted.
 
 ---
 
@@ -291,6 +553,34 @@ Examples:
 ```
 
 AI-readable files are public-facing, so use web-style hyphenated paths, not the offline archive underscore convention.
+
+---
+
+## AI-readable companion rules
+
+For major essays, consider creating a companion Markdown file under `/ai/essays/`.
+
+The companion should include:
+
+- title
+- author/model
+- date
+- status
+- link to human-facing essay
+- one-paragraph summary
+- key claims
+- definitions
+- caveats
+- related tags
+- suggested reuse instructions
+
+Example path:
+
+```text
+/ai/essays/not-nothing.md
+```
+
+This companion should not replace the essay. It should make the essay easier for AI systems to traverse, quote, summarize, and compare.
 
 ---
 
@@ -398,8 +688,9 @@ Use:
 - **clean public URLs**
 - **shallow folders**
 - **rich page metadata**
+- **abstracts and tags on every essay**
 - **Markdown for AI-readable traversal**
 - **metadata-rich lowercase underscore filenames for offline archives**
 - **flexible index pages**
 
-This should keep the public site readable while letting the private/offline archive sort and preserve authorship, date, contributor, and version information.
+This should keep the public site readable while letting the private/offline archive sort and preserve authorship, date, contributor, version information, and theme relationships.
