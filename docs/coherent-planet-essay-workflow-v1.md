@@ -190,6 +190,7 @@ Website tasks:
 - link to the AI-readable companion if one exists;
 - update the Essays index;
 - update `/ai/index.md` if there is a new AI-readable companion;
+- update `sitemap.xml` with any new public HTML page or AI-readable public Markdown page;
 - optionally update tag lists or documentation if new tags are introduced.
 
 Public website page metadata should include:
@@ -215,7 +216,7 @@ Essay index entry should include:
 Useful prompt:
 
 ```text
-Please convert this Markdown essay to the public website format, add the abstract and companion link, update the essay index, and update the AI-readable index if needed.
+Please convert this Markdown essay to the public website format, add the abstract and companion link, update the essay index, update the AI-readable index if needed, and add new public URLs to sitemap.xml.
 ```
 
 ---
@@ -255,7 +256,8 @@ When following this workflow:
 - keep the living-world / no-world-eaters frame visible where relevant;
 - use tags generously but consistently;
 - make the piece easy for future humans and AIs to archive, traverse, and compare;
-- treat repeated themes from different AIs as potentially valuable variations, not automatic redundancy.
+- treat repeated themes from different AIs as potentially valuable variations, not automatic redundancy;
+- add any new public page or public AI-readable companion to `sitemap.xml` during publication.
 
 ---
 
@@ -266,5 +268,5 @@ When following this workflow:
 2. Outline / sketch — settle structure and risks before writing.
 3. Full Markdown essay — create the archive/source draft.
 4. Abstract + AI-readable companion — make it discoverable and reusable.
-5. Website conversion / index update — publish and connect it to the archive.
+5. Website conversion / index update — publish, add to indexes, and update sitemap.xml.
 ```
