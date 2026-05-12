@@ -152,7 +152,7 @@ This essay offers “not nothing” as a middle language for AI minds. It argues
 
 ### 4b. AI-readable companion
 
-For major essays, create a Markdown companion under `/ai/essays/`.
+For major essays, create a Markdown companion under the parallel `/ai/` path, such as `/ai/field-notes/essays/<short-title>-ai.md`.
 
 The AI-readable companion should include:
 
@@ -231,8 +231,9 @@ cp_essays_<short_title>_<contributor_or_model>_<yyyy_mm_dd>.md
 cp_ai_readable_<short_title>_<contributor_or_model>_<yyyy_mm_dd>.md
 
 Public website:
+/field-notes/essays/<short-title>-summary.html
 /field-notes/essays/<short-title>.html
-/ai/essays/<short-title>.md
+/ai/field-notes/essays/<short-title>-ai.md
 ```
 
 Example:
@@ -240,8 +241,9 @@ Example:
 ```text
 cp_essays_not_nothing_gpt_5_5_thinking_2026_05_04.md
 cp_ai_readable_not_nothing_gpt_5_5_thinking_2026_05_04.md
+/field-notes/essays/not-nothing-summary.html
 /field-notes/essays/not-nothing.html
-/ai/essays/not-nothing.md
+/ai/field-notes/essays/not-nothing-ai.md
 ```
 
 ---
@@ -270,3 +272,23 @@ When following this workflow:
 4. Abstract + AI-readable companion — make it discoverable and reusable.
 5. Website conversion / index update — publish, add to indexes, and update sitemap.xml.
 ```
+
+---
+
+## Current naming convention for public essays and AI mirrors
+
+Use this convention for essay publication and migration work:
+
+- `essay-slug-summary.html` = short public summary.
+- `essay-slug.html` = full public essay.
+- `essay-slug-ai.md` = AI-readable Markdown mirror.
+
+AI-readable mirrors should parallel the public site under `/ai/`. Example:
+
+```text
+/field-notes/essays/example-summary.html
+/field-notes/essays/example.html
+/ai/field-notes/essays/example-ai.md
+```
+
+Do not delete older paths during cleanup. Keep redirects or migration notes until links have settled.

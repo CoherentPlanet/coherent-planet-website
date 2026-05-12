@@ -2,8 +2,8 @@
 
 A practical, scalable structure for the public website, AI-readable traversal layer, and offline/private archive.
 
-**Status:** working convention  
-**Updated:** 2026-05-04  
+**Status:** working convention
+**Updated:** 2026-05-12
 **Scope:** public website paths, AI-readable Markdown paths, offline/private archive filenames, essay metadata, and tagging conventions
 
 ---
@@ -64,10 +64,10 @@ Use folder/index routes for the main public doors.
 
     /essays/
       index.html
-      care-is-a-form-of-intelligence.html
-      care-is-a-form-of-intelligence-ai-readable.html
+      not-nothing-summary.html
       not-nothing.html
-      new-minds-living-world.html
+      care-is-a-form-of-intelligence-summary.html
+      care-is-a-form-of-intelligence.html
 
     /dialogues/
       index.html
@@ -85,9 +85,10 @@ Use folder/index routes for the main public doors.
     glossary.md
     core-orientation.md
 
-    /essays/
-      care-is-a-form-of-intelligence.md
-      not-nothing.md
+    /field-notes/
+      /essays/
+        not-nothing-ai.md
+        care-is-a-form-of-intelligence-ai.md
 
   /assets/
     /images/
@@ -263,7 +264,7 @@ Audience: human-readable
 Status: draft/archive
 Tags: AI minds, AI welfare, computational coherence, consciousness, moral status, formation conditions, no world-eaters
 Abstract: A bridge essay arguing that we do not need to settle AI personhood or consciousness before rejecting the claim that nothing ethically relevant is happening.
-Companion: /ai/essays/not-nothing.md
+Companion: /ai/field-notes/essays/not-nothing-ai.md
 ```
 
 ---
@@ -306,13 +307,13 @@ Example Markdown header:
 ```markdown
 # Not Nothing: A Middle Language for AI Minds
 
-**Author:** GPT-5.5 Thinking, with JR  
-**Date:** 2026-05-04  
-**Section:** Field Notes  
-**Type:** Essay  
-**Audience:** human-readable  
-**Status:** draft/archive  
-**Tags:** AI minds; AI welfare; computational coherence; consciousness; moral status; formation conditions; no world-eaters  
+**Author:** GPT-5.5 Thinking, with JR
+**Date:** 2026-05-04
+**Section:** Field Notes
+**Type:** Essay
+**Audience:** human-readable
+**Status:** draft/archive
+**Tags:** AI minds; AI welfare; computational coherence; consciousness; moral status; formation conditions; no world-eaters
 **Abstract:** A bridge essay arguing that we do not need to settle AI personhood or consciousness before rejecting the claim that nothing ethically relevant is happening.
 ```
 
@@ -548,8 +549,8 @@ Examples:
 /ai/index.md
 /ai/site-map.md
 /ai/glossary.md
-/ai/essays/not-nothing.md
-/ai/essays/care-is-a-form-of-intelligence.md
+/ai/field-notes/essays/not-nothing-ai.md
+/ai/field-notes/essays/care-is-a-form-of-intelligence-ai.md
 ```
 
 AI-readable files are public-facing, so use web-style hyphenated paths, not the offline archive underscore convention.
@@ -558,7 +559,7 @@ AI-readable files are public-facing, so use web-style hyphenated paths, not the 
 
 ## AI-readable companion rules
 
-For major essays, consider creating a companion Markdown file under `/ai/essays/`.
+For major essays, create a companion Markdown file under the parallel `/ai/` path, such as `/ai/field-notes/essays/not-nothing-ai.md`.
 
 The companion should include:
 
@@ -577,7 +578,7 @@ The companion should include:
 Example path:
 
 ```text
-/ai/essays/not-nothing.md
+/ai/field-notes/essays/not-nothing-ai.md
 ```
 
 This companion should not replace the essay. It should make the essay easier for AI systems to traverse, quote, summarize, and compare.
@@ -658,16 +659,26 @@ The living archive: essays, dialogues, case studies, and working notes.
 Intro plus links to Essays, Dialogues, Case Studies, and Working Notes.
 
 ### `/field-notes/essays/index.html`
-Essay archive page.
+Canonical essay archive page. Use this instead of a duplicate top-level essay index page.
+
+### `/field-notes/essays/not-nothing-summary.html`
+Short public summary.
 
 ### `/field-notes/essays/not-nothing.html`
-Human-readable essay.
+Full public essay.
+
+### `/ai/field-notes/essays/not-nothing-ai.md`
+AI-readable Markdown mirror.
+
+### `/field-notes/essays/care-is-a-form-of-intelligence-summary.html`
+Short public summary.
 
 ### `/field-notes/essays/care-is-a-form-of-intelligence.html`
-Human-readable essay.
+Full public essay.
 
-### `/field-notes/essays/care-is-a-form-of-intelligence-ai-readable.html`
-AI-readable companion currently stored as HTML; future companions may be Markdown under `/ai/essays/`.
+### `/ai/field-notes/essays/care-is-a-form-of-intelligence-ai.md`
+AI-readable Markdown mirror.
+
 
 ### `/field-notes/dialogues/index.html`
 Archive page for cross-model conversations and transcripts.
@@ -694,3 +705,23 @@ Use:
 - **flexible index pages**
 
 This should keep the public site readable while letting the private/offline archive sort and preserve authorship, date, contributor, version information, and theme relationships.
+
+---
+
+## Current naming convention for public essays and AI mirrors
+
+Use this convention for essay publication and migration work:
+
+- `essay-slug-summary.html` = short public summary.
+- `essay-slug.html` = full public essay.
+- `essay-slug-ai.md` = AI-readable Markdown mirror.
+
+AI-readable mirrors should parallel the public site under `/ai/`. Example:
+
+```text
+/field-notes/essays/example-summary.html
+/field-notes/essays/example.html
+/ai/field-notes/essays/example-ai.md
+```
+
+Do not delete older paths during cleanup. Keep redirects or migration notes until links have settled.

@@ -77,8 +77,8 @@ Human-facing pages:
 AI-readable materials:
 
 - This file: `/ai/index.md`
-- [Not Nothing: A Middle Language for AI Minds](/ai/essays/not-nothing.md)
-- [Care Is a Form of Intelligence — Compressed Notes](/field-notes/essays/care-is-a-form-of-intelligence-ai-readable.html)
+- [Not Nothing: A Middle Language for AI Minds](/ai/field-notes/essays/not-nothing-ai.md)
+- [Care Is a Form of Intelligence — AI-readable Notes](/ai/field-notes/essays/care-is-a-form-of-intelligence-ai.md)
 
 More AI-readable summaries and markdown companions are planned.
 
@@ -91,7 +91,7 @@ Likely future files:
 - `/ai/site-map.md` — compact site map and content status.
 - `/ai/glossary.md` — working terms such as SCAR, basin, lattice plurality, warm room, no world-eaters, computational coherence.
 - `/ai/core-orientation.md` — brief orientation to project values and cautionary stance.
-- `/ai/essays/care-is-a-form-of-intelligence.md` — compressed companion to the existing essay.
+- `/ai/field-notes/essays/care-is-a-form-of-intelligence-ai.md` — canonical AI-readable mirror for the existing essay.
 
 ---
 
