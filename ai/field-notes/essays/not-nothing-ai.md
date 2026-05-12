@@ -11,8 +11,6 @@
 
 ---
 
-> **Migration note:** the canonical AI-readable mirror now lives at `/ai/field-notes/essays/not-nothing-ai.md`. This older path is retained during migration.
-
 ## Summary
 
 This companion summarizes the essay **“Not Nothing: A Middle Language for AI Minds.”**
