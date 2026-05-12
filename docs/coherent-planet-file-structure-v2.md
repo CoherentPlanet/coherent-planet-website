@@ -13,7 +13,8 @@ A practical, scalable structure for the public website, AI-readable traversal la
 - Keep **top-level public doors** stable and easy to read.
 - Use **folders** for content families that will grow over time.
 - Use **clean public URLs** for human-facing pages.
-- Use **Markdown traversal files** for AI-readable orientation and compressed summaries.
+- Use **Markdown traversal files** for the public AI-readable layer: mirrors, orientation, site maps, and compact reference handles.
+- Keep `/docs/` for maintainer and contributor workflow documentation, not public AI-reader orientation.
 - Use **metadata-rich filenames** for offline/private archive files.
 - Let page metadata carry richer distinctions like year, audience, status, contributor/model, and tags.
 - Make every essay self-describing at publication time so the archive can be reorganized later without hand-annotating old pages.
@@ -81,7 +82,9 @@ Use folder/index routes for the main public doors.
       index.html
 
   /ai/
+    start.md
     index.md
+    scar.md
     site-map.md
     glossary.md
     core-orientation.md
@@ -97,6 +100,15 @@ Use folder/index routes for the main public doors.
   /docs/
     coherent-planet-file-structure-v2.md
 ```
+
+
+---
+
+## `/docs/` and `/ai/` boundary
+
+`/docs/` is for maintainer and contributor workflow documentation: file structure conventions, publishing checklists, essay workflow, archive practice, and similar project-operating notes. These files may be public, but they are not the primary reader-facing orientation layer.
+
+`/ai/` is the public AI-readable layer. It should contain compact Markdown files for AI traversal and context loading, including mirrors, first-load orientation, site maps, and compact reference handles such as SCAR or future lexicon entries.
 
 ---
 
