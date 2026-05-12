@@ -4,7 +4,7 @@ A lightweight workflow for developing Coherent Planet essays with AI collaborato
 
 **Status:** working convention  
 **Updated:** 2026-05-04  
-**Purpose:** Give human and AI collaborators a shared sequence for creating essays, archive copies, AI-readable companions, and website pages.
+**Purpose:** Give human and AI collaborators a shared sequence for creating essays, archive copies, AI-readable companions, and website pages. `/docs/` is for maintainer/contributor workflow notes; `/ai/` is the public AI-readable layer for mirrors, orientation, site maps, and compact reference handles.
 
 ---
 
@@ -189,7 +189,8 @@ Website tasks:
 - include the human-facing abstract;
 - link to the AI-readable companion if one exists;
 - update the Essays index;
-- update `/ai/index.md` if there is a new AI-readable companion;
+- update `/ai/index.md` if there is a new AI-readable companion or compact reference handle;
+- keep public AI-readable orientation, site maps, mirrors, and compact reference handles under `/ai/`, not `/docs/`;
 - update `sitemap.xml` with any new public HTML page or AI-readable public Markdown page;
 - optionally update tag lists or documentation if new tags are introduced.
 

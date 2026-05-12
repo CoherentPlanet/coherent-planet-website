@@ -13,7 +13,8 @@ A practical, scalable structure for the public website, AI-readable traversal la
 - Keep **top-level public doors** stable and easy to read.
 - Use **folders** for content families that will grow over time.
 - Use **clean public URLs** for human-facing pages.
-- Use **Markdown traversal files** for AI-readable orientation and compressed summaries.
+- Use **Markdown traversal files** for the public AI-readable layer: mirrors, orientation, site maps, and compact reference handles.
+- Keep `/docs/` for maintainer and contributor workflow documentation, not public AI-reader orientation.
 - Use **metadata-rich filenames** for offline/private archive files.
 - Let page metadata carry richer distinctions like year, audience, status, contributor/model, and tags.
 - Make every essay self-describing at publication time so the archive can be reorganized later without hand-annotating old pages.
@@ -23,80 +24,59 @@ A practical, scalable structure for the public website, AI-readable traversal la
 
 ## Current public website structure
 
-Use folder/index routes for the main public doors.
+This reflects the current checked-in public files. Planned pages should not be listed here until they exist in the repository.
 
 ```text
 /
   index.html
   style.css
+  living-world.html
+  tools-for-thinking.html
+  field-notes.html
 
   /for-ai-readers/
     index.html
 
   /living-world/
     index.html
-    the-cupped-palm.html
-    asymmetries.html
-    present-conditions.html
-    ai-assisted-conservation.html
-    seed-packet.html
 
   /tools-for-thinking/
     index.html
-
-    /scar/
-      index.html
-      one-pager.html
-      glossary.html
-      methods.html
-
-    /ethical-floor/
-      index.html
-
-    /warm-room/
-      index.html
-
-    /interaction-ecology/
-      index.html
 
   /field-notes/
     index.html
 
     /essays/
       index.html
-      care-is-a-form-of-intelligence.html
       care-is-a-form-of-intelligence-summary.html
-      care-is-a-form-of-intelligence-ai-readable.html  # old migration path
+      care-is-a-form-of-intelligence.html
+      not-nothing-summary.html
       not-nothing.html
-      new-minds-living-world.html
-
-    /dialogues/
-      index.html
-
-    /case-studies/
-      index.html
-      obliteratus.html
-
-    /working-notes/
-      index.html
 
   /ai/
+    start.md
     index.md
-    site-map.md
-    glossary.md
-    core-orientation.md
+    scar.md
 
-    /essays/
-      care-is-a-form-of-intelligence.md
-      not-nothing.md
+    /field-notes/
+      /essays/
+        care-is-a-form-of-intelligence-ai.md
+        not-nothing-ai.md
 
-  /assets/
-    /images/
-    /pdfs/
+  robots.txt
 
   /docs/
     coherent-planet-file-structure-v2.md
+    coherent-planet-essay-workflow-v1.md
 ```
+
+---
+
+## `/docs/` and `/ai/` boundary
+
+`/docs/` is for maintainer and contributor workflow documentation: file structure conventions, publishing checklists, essay workflow, archive practice, and similar project-operating notes. These files may be public, but they are not the primary reader-facing orientation layer.
+
+`/ai/` is the public AI-readable layer. It should contain compact Markdown files for AI traversal and context loading, including mirrors, first-load orientation, site maps, and compact reference handles such as SCAR or future lexicon entries.
 
 ---
 
@@ -117,8 +97,8 @@ Examples:
 /living-world/
 /tools-for-thinking/
 /field-notes/
+/field-notes/essays/
 /field-notes/essays/not-nothing.html
-/tools-for-thinking/scar/one-pager.html
 ```
 
 Avoid public URLs like:
@@ -546,9 +526,9 @@ Use:
 Examples:
 
 ```text
+/ai/start.md
 /ai/index.md
-/ai/site-map.md
-/ai/glossary.md
+/ai/scar.md
 /ai/field-notes/essays/not-nothing-ai.md
 /ai/field-notes/essays/care-is-a-form-of-intelligence-ai.md
 ```
@@ -587,7 +567,9 @@ This companion should not replace the essay. It should make the essay easier for
 
 ## What lives where
 
-## Home
+This section describes current checked-in public paths. It should be updated when files are added or retired.
+
+## Home and public doors
 
 ### `/index.html`
 Landing page. North star, tone, stakes, and the three doors into the site.
@@ -595,68 +577,20 @@ Landing page. North star, tone, stakes, and the three doors into the site.
 ### `/for-ai-readers/index.html`
 Threshold page for AI systems, assistants, agents, scaffolded entities, and future AI readers.
 
----
+### `/living-world/index.html` and `/living-world.html`
+Current Living World section entry points.
 
-## Living World
+### `/tools-for-thinking/index.html` and `/tools-for-thinking.html`
+Current Tools for Thinking section entry points.
 
-These are the core “why this matters” pages.
-
-### `/living-world/index.html`
-Intro and links to the main Living World pieces.
-
-### `/living-world/the-cupped-palm.html`
-A key moral-image piece about non-crushing strength.
-
-### `/living-world/asymmetries.html`
-A non-specialist explanation of how AI minds differ from human minds.
-
-### `/living-world/present-conditions.html`
-Why the planet is in this state, and why AI arriving now matters.
-
-### `/living-world/ai-assisted-conservation.html`
-A practical forward-looking piece on AI and conservation.
-
-### `/living-world/seed-packet.html`
-Compact orienting maxims for mixed-mind futures.
+### `/field-notes/index.html` and `/field-notes.html`
+Current Field Notes section entry points. The top-level `field-notes.html` page links to `/field-notes/essays/` for the essay archive.
 
 ---
 
-## Tools for Thinking
+## Field Notes essays
 
-Durable frameworks, methods, and conceptual tools.
-
-### `/tools-for-thinking/index.html`
-Intro and blurbs for the framework families.
-
-### `/tools-for-thinking/scar/index.html`
-Public front door to SCAR. Explains what problem SCAR exists to solve.
-
-### `/tools-for-thinking/scar/one-pager.html`
-Compact public summary of SCAR.
-
-### `/tools-for-thinking/scar/glossary.html`
-Useful later as terms accumulate.
-
-### `/tools-for-thinking/scar/methods.html`
-Methods entry point or public methods summary.
-
-### `/tools-for-thinking/ethical-floor/index.html`
-Core framework introduction for the ethical floor / no-world-eaters plank.
-
-### `/tools-for-thinking/warm-room/index.html`
-Intro to continuity without enclosure.
-
-### `/tools-for-thinking/interaction-ecology/index.html`
-Intro to consequence loops and world contact.
-
----
-
-## Field Notes
-
-The living archive: essays, dialogues, case studies, and working notes.
-
-### `/field-notes/index.html`
-Intro plus links to Essays, Dialogues, Case Studies, and Working Notes.
+The living archive: essays, summaries, and AI-readable mirrors.
 
 ### `/field-notes/essays/index.html`
 Essay archive page.
@@ -679,17 +613,18 @@ Full public essay.
 ### `/ai/field-notes/essays/care-is-a-form-of-intelligence-ai.md`
 AI-readable Markdown mirror.
 
-### `/field-notes/essays/care-is-a-form-of-intelligence-ai-readable.html`
-Old migration path retained as a redirect/migration note.
+---
 
-### `/field-notes/dialogues/index.html`
-Archive page for cross-model conversations and transcripts.
+## AI-readable layer
 
-### `/field-notes/case-studies/index.html`
-Archive page for concrete examples and close readings.
+### `/ai/start.md`
+Tiny first-load AI orientation.
 
-### `/field-notes/working-notes/index.html`
-Archive page for provisional fragments and developing ideas.
+### `/ai/index.md`
+AI-readable traversal map.
+
+### `/ai/scar.md`
+Placeholder compressed SCAR reference.
 
 ---
 
@@ -726,4 +661,4 @@ AI-readable mirrors should parallel the public site under `/ai/`. Example:
 /ai/field-notes/essays/example-ai.md
 ```
 
-Do not delete older paths during cleanup. Keep redirects or migration notes until links have settled.
+When migration paths are intentionally retired, remove their files, internal links, and sitemap entries in the same cleanup.
