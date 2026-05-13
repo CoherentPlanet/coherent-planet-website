@@ -1,10 +1,26 @@
+:root {
+  color-scheme: light dark;
+  --bg: #fcfcf8;
+  --header-bg: #f7f4ec;
+  --text: #1f1f1f;
+  --muted: #777;
+  --soft-muted: #6a6a6a;
+  --link: #2f5d50;
+  --rule: #d8d0c0;
+  --rule-soft: #e6dfd1;
+  --panel-bg: #f4f1e8;
+  --panel-border: #ddd8cc;
+  --tag-border: #c9c2b2;
+  --tag-text: #4a4a4a;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: Georgia, "Times New Roman", serif;
   line-height: 1.55;
-  background: #fcfcf8;
-  color: #1f1f1f;
+  background: var(--bg);
+  color: var(--text);
 }
 
 header,
@@ -15,9 +31,21 @@ main {
 }
 
 header {
+  position: relative;
   padding-top: 1rem;
-  padding-bottom: 0.85rem;
-  border-bottom: 1px solid #ddd8cc;
+  padding-bottom: 0.95rem;
+  background: var(--header-bg);
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  right: 1.25rem;
+  bottom: 0;
+  left: 1.25rem;
+  height: 4px;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule-soft);
 }
 
 h1 {
@@ -28,7 +56,7 @@ h1 {
 }
 
 h1 a {
-  color: #1f1f1f;
+  color: var(--text);
   text-decoration: none;
 }
 
@@ -48,7 +76,7 @@ nav {
 }
 
 nav a {
-  color: #2f5d50;
+  color: var(--link);
   text-decoration: none;
 }
 
@@ -80,16 +108,16 @@ footer {
   max-width: 42rem;
   margin: 0 auto;
   padding: 0 1.25rem 2rem 1.25rem;
-  color: #6a6a6a;
+  color: var(--soft-muted);
   font-size: 0.95rem;
 }
 .meta {
-  color: #666;
+  color: var(--soft-muted);
   font-size: 0.95rem;
 }
 
 main a {
-  color: #2f5d50;
+  color: var(--link);
 }
 
 main a:hover {
@@ -98,7 +126,7 @@ main a:hover {
 
 .essay-deck {
   margin: -0.25rem 0 0.35rem 0;
-  color: #4a4a4a;
+  color: var(--tag-text);
   font-size: 1.12rem;
   font-style: italic;
 }
@@ -106,8 +134,8 @@ main a:hover {
 .essay-meta {
   margin: 0.1rem 0 2rem 0;
   padding-bottom: 0.85rem;
-  border-bottom: 1px solid #ddd8cc;
-  color: #777;
+  border-bottom: 1px solid var(--rule);
+  color: var(--muted);
   font-size: 0.92rem;
 }
 
@@ -115,15 +143,15 @@ main a:hover {
   max-width: 42rem;
   margin: 3rem 0 1.25rem 0;
   border: 0;
-  border-top: 1px solid #ddd8cc;
+  border-top: 1px solid var(--rule);
 }
 
 .essay-context {
   max-width: 42rem;
   margin: 0;
   padding: 1rem 1.1rem;
-  background: #f4f1e8;
-  border: 1px solid #ddd8cc;
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
   border-radius: 0.35rem;
 }
 
@@ -154,9 +182,9 @@ main a:hover {
 .tag-list li {
   margin: 0;
   padding: 0.15rem 0.55rem;
-  border: 1px solid #c9c2b2;
+  border: 1px solid var(--tag-border);
   border-radius: 999px;
-  color: #4a4a4a;
+  color: var(--tag-text);
   font-size: 0.9rem;
   line-height: 1.4;
 }
@@ -168,5 +196,22 @@ main a:hover {
 }
 
 .revision-note {
-  color: #666;
+  color: var(--soft-muted);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #11140f;
+    --header-bg: #151911;
+    --text: #e8e1d3;
+    --muted: #aaa394;
+    --soft-muted: #b5ad9d;
+    --link: #9fc7b6;
+    --rule: #3b3a30;
+    --rule-soft: #272c24;
+    --panel-bg: #191b16;
+    --panel-border: #34382f;
+    --tag-border: #4a4d40;
+    --tag-text: #d3cbbb;
+  }
 }
