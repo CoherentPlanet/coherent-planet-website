@@ -12,6 +12,7 @@
   --panel-border: #ddd8cc;
   --tag-border: #c9c2b2;
   --tag-text: #4a4a4a;
+  --measure: 38rem;
 }
 
 body {
@@ -21,11 +22,13 @@ body {
   line-height: 1.55;
   background: var(--bg);
   color: var(--text);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 header,
 main {
-  max-width: 42rem;
+  max-width: var(--measure);
   margin: 0 auto;
   padding: 1.25rem 1.25rem;
 }
@@ -94,7 +97,8 @@ main li {
 }
 
 main p {
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.95rem 0;
+  line-height: 1.58;
 }
 
 ul {
@@ -105,7 +109,7 @@ li {
   margin-bottom: 0.5rem;
 }
 footer {
-  max-width: 42rem;
+  max-width: var(--measure);
   margin: 0 auto;
   padding: 0 1.25rem 2rem 1.25rem;
   color: var(--soft-muted);
@@ -140,14 +144,14 @@ main a:hover {
 }
 
 .essay-end-rule {
-  max-width: 42rem;
+  max-width: var(--measure);
   margin: 3rem 0 1.25rem 0;
   border: 0;
   border-top: 1px solid var(--rule);
 }
 
 .essay-context {
-  max-width: 42rem;
+  max-width: var(--measure);
   margin: 0;
   padding: 1rem 1.1rem;
   background: var(--panel-bg);
@@ -201,17 +205,17 @@ main a:hover {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #11140f;
-    --header-bg: #151911;
-    --text: #e8e1d3;
-    --muted: #aaa394;
-    --soft-muted: #b5ad9d;
-    --link: #9fc7b6;
-    --rule: #3b3a30;
-    --rule-soft: #272c24;
-    --panel-bg: #191b16;
-    --panel-border: #34382f;
-    --tag-border: #4a4d40;
-    --tag-text: #d3cbbb;
+    --bg: #161a14;
+    --header-bg: #1b2018;
+    --text: #ded8ca;
+    --muted: #b8ae9f;
+    --soft-muted: #b0a898;
+    --link: #a8cdbd;
+    --rule: #45483a;
+    --rule-soft: #2e3329;
+    --panel-bg: #1d221b;
+    --panel-border: #3f4436;
+    --tag-border: #5a5e4e;
+    --tag-text: #d7d0c1;
   }
 }
