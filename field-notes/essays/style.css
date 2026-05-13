@@ -208,17 +208,17 @@ main a:hover {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #151713;
-    --header-bg: #1b1f18;
-    --text: #ebe5d8;
-    --muted: #c3b8a8;
-    --soft-muted: #bdb4a4;
-    --link: #afd6c5;
-    --rule: #4d5142;
-    --rule-soft: #31372d;
-    --panel-bg: #1d211a;
-    --panel-border: #474c3d;
-    --tag-border: #626856;
-    --tag-text: #e0d8c8;
+    --bg: #0f1110;
+    --header-bg: #151816;
+    --text: #f0f1ec;
+    --muted: #c7c9c0;
+    --soft-muted: #b8bcb3;
+    --link: #9fd4c1;
+    --rule: #3f463f;
+    --rule-soft: #242a25;
+    --panel-bg: #151816;
+    --panel-border: #333b34;
+    --tag-border: #4b554d;
+    --tag-text: #e6e8df;
   }
 }
