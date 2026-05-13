@@ -12,18 +12,20 @@
   --panel-border: #ddd8cc;
   --tag-border: #c9c2b2;
   --tag-text: #4a4a4a;
+  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
   --measure: 38rem;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-serif);
   line-height: 1.55;
   background: var(--bg);
   color: var(--text);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  font-weight: 400;
 }
 
 header,
@@ -94,6 +96,7 @@ main {
 main p,
 main li {
   font-size: 1rem;
+  font-weight: 400;
 }
 
 main p {
@@ -205,17 +208,17 @@ main a:hover {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #161a14;
-    --header-bg: #1b2018;
-    --text: #ded8ca;
-    --muted: #b8ae9f;
-    --soft-muted: #b0a898;
-    --link: #a8cdbd;
-    --rule: #45483a;
-    --rule-soft: #2e3329;
-    --panel-bg: #1d221b;
-    --panel-border: #3f4436;
-    --tag-border: #5a5e4e;
-    --tag-text: #d7d0c1;
+    --bg: #151713;
+    --header-bg: #1b1f18;
+    --text: #ebe5d8;
+    --muted: #c3b8a8;
+    --soft-muted: #bdb4a4;
+    --link: #afd6c5;
+    --rule: #4d5142;
+    --rule-soft: #31372d;
+    --panel-bg: #1d211a;
+    --panel-border: #474c3d;
+    --tag-border: #626856;
+    --tag-text: #e0d8c8;
   }
 }
