@@ -83,29 +83,41 @@ main a:hover {
   text-decoration: underline;
 }
 
+.essay-deck {
+  margin: -0.25rem 0 0.35rem 0;
+  color: #4a4a4a;
+  font-size: 1.12rem;
+  font-style: italic;
+}
+
 .essay-meta {
+  margin: 0 0 1.75rem 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.essay-context {
   max-width: 42rem;
-  margin: 0 0 2rem 0;
+  margin: 2.5rem 0 0 0;
   padding: 1rem 1.1rem;
   background: #f4f1e8;
   border: 1px solid #ddd8cc;
   border-radius: 0.35rem;
 }
 
-.essay-meta p {
+.essay-context h3 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.05rem;
+  font-weight: normal;
+}
+
+.essay-context p {
   margin: 0 0 0.75rem 0;
   font-size: 0.98rem;
 }
 
-.essay-meta p:last-child {
+.essay-context p:last-child {
   margin-bottom: 0;
-}
-
-.meta-kicker {
-  color: #666;
-  font-size: 0.9rem;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .tag-list {
@@ -127,8 +139,12 @@ main a:hover {
   line-height: 1.4;
 }
 
-.meta-links {
+.context-links {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem 1rem;
+}
+
+.revision-note {
+  color: #666;
 }
