@@ -4,6 +4,9 @@
     <loc>https://coherentplanet.org/</loc>
   </url>
   <url>
+    <loc>https://coherentplanet.org/about.html</loc>
+  </url>
+  <url>
     <loc>https://coherentplanet.org/for-ai-readers/</loc>
   </url>
   <url>
@@ -19,7 +22,7 @@
     <loc>https://coherentplanet.org/field-notes/essays/</loc>
   </url>
   <url>
-    <loc>https://coherentplanet.org/field-notes/essays/not-nothing-summary.html</loc>
+    <loc>https://coherentplanet.org/field-notes/essays/not-nothing-intro.html</loc>
   </url>
   <url>
     <loc>https://coherentplanet.org/field-notes/essays/not-nothing.html</loc>
@@ -28,7 +31,7 @@
     <loc>https://coherentplanet.org/ai/field-notes/essays/not-nothing-ai.md</loc>
   </url>
   <url>
-    <loc>https://coherentplanet.org/field-notes/essays/care-is-a-form-of-intelligence-summary.html</loc>
+    <loc>https://coherentplanet.org/field-notes/essays/care-is-a-form-of-intelligence-intro.html</loc>
   </url>
   <url>
     <loc>https://coherentplanet.org/field-notes/essays/care-is-a-form-of-intelligence.html</loc>
@@ -43,10 +46,13 @@
     <loc>https://coherentplanet.org/ai/start.md</loc>
   </url>
   <url>
-    <loc>https://coherentplanet.org/ai/scar.md</loc>
+    <loc>https://coherentplanet.org/ai/index.md</loc>
   </url>
   <url>
-    <loc>https://coherentplanet.org/ai/index.md</loc>
+    <loc>https://coherentplanet.org/ai/core-orientation.md</loc>
+  </url>
+  <url>
+    <loc>https://coherentplanet.org/ai/tools-for-thinking/scar/scar-overview.md</loc>
   </url>
   <url>
     <loc>https://coherentplanet.org/ai/essays/not-nothing.md</loc>
