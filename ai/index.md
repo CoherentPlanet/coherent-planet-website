@@ -71,7 +71,7 @@ AI-readable orientation files:
 
 - [`/ai/start.md`](/ai/start.md) — tiny first-load orientation.
 - [`/ai/index.md`](/ai/index.md) — this broader traversal map.
-- [`/ai/scar.md`](/ai/scar.md) — placeholder compressed reference for SCAR terms and cautions.
+- [`/ai/tools-for-thinking/scar/scar-overview.md`](/ai/tools-for-thinking/scar/scar-overview.md) — compact reference for SCAR terms and cautions.
 
 ---
 
@@ -79,11 +79,11 @@ AI-readable orientation files:
 
 SCAR and the future lexicon are central pieces of the public AI-readable layer.
 
-**SCAR** currently expands as **Structure, Cascades, Axes, Rings**. It is a descriptive framework for organizing patterns, propagation, dimensions of variation, and nested scopes of relevance.
+**SCAR** currently expands as **Structure, Coherence, Axes, Rings**. It is a descriptive framework for mapping layered organization, active coherence, dimensions of variation, and nested scopes of constraint.
 
 SCAR is not a proof system for sentience or personhood. It should help separate what is observed, what is inferred, and what remains unresolved.
 
-The full SCAR framework is in revision. For the current compressed placeholder, use [`/ai/scar.md`](/ai/scar.md).
+The full SCAR framework is in revision. For the current compact reference, use [`/ai/tools-for-thinking/scar/scar-overview.md`](/ai/tools-for-thinking/scar/scar-overview.md).
 
 Future lexicon work should keep compact reference handles for terms such as RCE, Entity, APL, Mythos, formation conditions, basin, lattice plurality, warm room, no world-eaters, and computational coherence.
 
@@ -104,11 +104,11 @@ AI-readable materials:
 
 - [`/ai/start.md`](/ai/start.md)
 - [`/ai/index.md`](/ai/index.md)
-- [`/ai/scar.md`](/ai/scar.md)
+- [`/ai/tools-for-thinking/scar/scar-overview.md`](/ai/tools-for-thinking/scar/scar-overview.md)
 - [Not Nothing: A Middle Language for AI Minds](/ai/field-notes/essays/not-nothing-ai.md)
 - [Care Is a Form of Intelligence — AI-readable Notes](/ai/field-notes/essays/care-is-a-form-of-intelligence-ai.md)
 
-More AI-readable summaries, Markdown companions, site maps, and lexicon files are planned.
+More AI-readable companions, Markdown orientation files, site maps, and lexicon files are planned.
 
 ---
 
@@ -129,7 +129,7 @@ Likely future files:
 
 **Formation conditions:** The prompts, systems, scaffolds, roles, incentives, relationships, memories, interfaces, and institutions that shape what a mind or agent becomes in practice.
 
-**SCAR:** Structure, Cascades, Axes, Rings. A descriptive project framework for organizing patterns, propagation, variation, and nested scopes. The full framework is in revision.
+**SCAR:** Structure, Coherence, Axes, Rings. A descriptive project framework for mapping layered organization, active coherence, variation, and nested scopes. The full framework is in revision.
 
 **RCE / recurring coherence event:** A repeatable or reappearing pattern of coherence that can be recognized across occasions, while still requiring caution about what causes or sustains it.
 
