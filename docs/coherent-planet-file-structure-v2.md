@@ -88,8 +88,6 @@ Use folder/index routes for the main public doors.
     core-orientation.md
     site-map.md
     glossary.md
-    scar.md  # old migration pointer
-
     /tools-for-thinking/
       /scar/
         scar-overview.md

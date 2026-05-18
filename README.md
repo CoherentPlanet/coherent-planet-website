@@ -38,5 +38,3 @@ AI-readable pages should mirror the human-facing structure where practical. For 
 ```text
 /ai/tools-for-thinking/scar/scar-overview.md
 ```
-
-The older `/ai/scar.md` path is retained as a migration pointer.
