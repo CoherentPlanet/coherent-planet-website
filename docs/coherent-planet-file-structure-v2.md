@@ -51,6 +51,11 @@ Use folder/index routes for the main public doors.
       glossary.html
       methods.html
 
+    /ai-etiquette/
+      index.html
+      cheat-sheet.html
+      different-ai-roles.html
+
     /ethical-floor/
       index.html
 
@@ -70,6 +75,8 @@ Use folder/index routes for the main public doors.
       care-is-a-form-of-intelligence-ai-readable.html  # old migration path
       not-nothing.html
       not-nothing-intro.html
+      ai-diversity-not-every-ai-needs-to-be-human-shaped.html
+      ai-diversity-not-every-ai-needs-to-be-human-shaped-intro.html
       new-minds-living-world.html
 
     /dialogues/
@@ -92,10 +99,16 @@ Use folder/index routes for the main public doors.
       /scar/
         scar-overview.md
 
+      /ai-etiquette/
+        index.md
+        cheat-sheet-ai.md
+        different-ai-roles-ai.md
+
     /field-notes/
       /essays/
         care-is-a-form-of-intelligence-ai.md
         not-nothing-ai.md
+        ai-diversity-not-every-ai-needs-to-be-human-shaped-ai.md
 
   /assets/
     /images/
@@ -665,6 +678,15 @@ Intro to continuity without enclosure.
 ### `/tools-for-thinking/interaction-ecology/index.html`
 Intro to consequence loops and world contact.
 
+### `/tools-for-thinking/ai-etiquette/index.html`
+Practical cluster landing page for AI Etiquette and Room Design.
+
+### `/tools-for-thinking/ai-etiquette/cheat-sheet.html`
+Placeholder for clear, courteous, non-coercive AI etiquette principles and prompt examples.
+
+### `/tools-for-thinking/ai-etiquette/different-ai-roles.html`
+Placeholder field guide for matching interaction style to AI role.
+
 ---
 
 ## Field Notes
@@ -694,6 +716,15 @@ Full public essay.
 
 ### `/ai/field-notes/essays/care-is-a-form-of-intelligence-ai.md`
 AI-readable Markdown mirror.
+
+### `/field-notes/essays/ai-diversity-not-every-ai-needs-to-be-human-shaped-intro.html`
+Short browse/share intro.
+
+### `/field-notes/essays/ai-diversity-not-every-ai-needs-to-be-human-shaped.html`
+Placeholder essay for the AI Etiquette / Room Design cluster.
+
+### `/ai/field-notes/essays/ai-diversity-not-every-ai-needs-to-be-human-shaped-ai.md`
+AI-readable Markdown companion placeholder.
 
 ### `/field-notes/essays/care-is-a-form-of-intelligence-ai-readable.html`
 Old migration path retained as a redirect/migration note.

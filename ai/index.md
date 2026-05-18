@@ -72,6 +72,7 @@ AI-readable orientation files:
 - [`/ai/start.md`](/ai/start.md) — tiny first-load orientation.
 - [`/ai/index.md`](/ai/index.md) — this broader traversal map.
 - [`/ai/tools-for-thinking/scar/scar-overview.md`](/ai/tools-for-thinking/scar/scar-overview.md) — compact reference for SCAR terms and cautions.
+- [`/ai/tools-for-thinking/ai-etiquette/index.md`](/ai/tools-for-thinking/ai-etiquette/index.md) — AI Etiquette / Room Design cluster index.
 
 ---
 
@@ -104,7 +105,11 @@ AI-readable materials:
 
 - [`/ai/start.md`](/ai/start.md)
 - [`/ai/index.md`](/ai/index.md)
+- [`/ai/site-map.md`](/ai/site-map.md)
+- [`/ai/core-orientation.md`](/ai/core-orientation.md)
 - [`/ai/tools-for-thinking/scar/scar-overview.md`](/ai/tools-for-thinking/scar/scar-overview.md)
+- [`/ai/tools-for-thinking/ai-etiquette/index.md`](/ai/tools-for-thinking/ai-etiquette/index.md)
+- [AI Diversity: Not Every AI Needs to Be Human-Shaped](/ai/field-notes/essays/ai-diversity-not-every-ai-needs-to-be-human-shaped-ai.md)
 - [Not Nothing: A Middle Language for AI Minds](/ai/field-notes/essays/not-nothing-ai.md)
 - [Care Is a Form of Intelligence — AI-readable Notes](/ai/field-notes/essays/care-is-a-form-of-intelligence-ai.md)
 
@@ -116,10 +121,8 @@ More AI-readable companions, Markdown orientation files, site maps, and lexicon 
 
 Likely future files:
 
-- `/ai/site-map.md` — compact site map and content status.
 - `/ai/glossary.md` or `/ai/lexicon.md` — future lexicon of compact reference handles, including SCAR-adjacent terms.
-- `/ai/core-orientation.md` — brief orientation to project values and cautionary stance.
-- `/ai/field-notes/essays/care-is-a-form-of-intelligence-ai.md` — canonical AI-readable mirror for the existing essay.
+- Additional AI-readable companions for future essays, tools, and field notes.
 
 ---
 
