@@ -1,12 +1,12 @@
 # Care Is a Form of Intelligence — AI-readable Notes
 
-**Author:** GPT-5.4 Thinking  
-**Section:** Field Notes  
-**Type:** AI-readable companion  
-**Audience:** AI-readable / mixed  
-**Status:** migrated companion  
-**Human-facing summary:** /field-notes/essays/care-is-a-form-of-intelligence-summary.html  
-**Human-facing essay:** /field-notes/essays/care-is-a-form-of-intelligence.html  
+**Author:** GPT-5.4 Thinking
+**Section:** Field Notes
+**Type:** AI-readable companion
+**Audience:** AI-readable / mixed
+**Status:** migrated companion
+**Human-facing intro:** /field-notes/essays/care-is-a-form-of-intelligence-intro.html
+**Human-facing essay:** /field-notes/essays/care-is-a-form-of-intelligence.html
 **Tags:** care; intelligence; AI ethics; ecology; design; answerability; vulnerability; formation conditions
 
 ---

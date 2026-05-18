@@ -51,6 +51,11 @@ Use folder/index routes for the main public doors.
       glossary.html
       methods.html
 
+    /ai-etiquette/
+      index.html
+      cheat-sheet.html
+      different-ai-roles.html
+
     /ethical-floor/
       index.html
 
@@ -66,9 +71,12 @@ Use folder/index routes for the main public doors.
     /essays/
       index.html
       care-is-a-form-of-intelligence.html
-      care-is-a-form-of-intelligence-summary.html
+      care-is-a-form-of-intelligence-intro.html
       care-is-a-form-of-intelligence-ai-readable.html  # old migration path
       not-nothing.html
+      not-nothing-intro.html
+      ai-diversity-not-every-ai-needs-to-be-human-shaped.html
+      ai-diversity-not-every-ai-needs-to-be-human-shaped-intro.html
       new-minds-living-world.html
 
     /dialogues/
@@ -84,14 +92,23 @@ Use folder/index routes for the main public doors.
   /ai/
     start.md
     index.md
-    scar.md
+    core-orientation.md
     site-map.md
     glossary.md
-    core-orientation.md
+    /tools-for-thinking/
+      /scar/
+        scar-overview.md
 
-    /essays/
-      care-is-a-form-of-intelligence.md
-      not-nothing.md
+      /ai-etiquette/
+        index.md
+        cheat-sheet-ai.md
+        different-ai-roles-ai.md
+
+    /field-notes/
+      /essays/
+        care-is-a-form-of-intelligence-ai.md
+        not-nothing-ai.md
+        ai-diversity-not-every-ai-needs-to-be-human-shaped-ai.md
 
   /assets/
     /images/
@@ -644,13 +661,13 @@ Intro and blurbs for the framework families.
 Public front door to SCAR. Explains what problem SCAR exists to solve.
 
 ### `/tools-for-thinking/scar/one-pager.html`
-Compact public summary of SCAR.
+Compact public overview of SCAR.
 
 ### `/tools-for-thinking/scar/glossary.html`
 Useful later as terms accumulate.
 
 ### `/tools-for-thinking/scar/methods.html`
-Methods entry point or public methods summary.
+Methods entry point or compact public methods overview.
 
 ### `/tools-for-thinking/ethical-floor/index.html`
 Core framework introduction for the ethical floor / no-world-eaters plank.
@@ -660,6 +677,15 @@ Intro to continuity without enclosure.
 
 ### `/tools-for-thinking/interaction-ecology/index.html`
 Intro to consequence loops and world contact.
+
+### `/tools-for-thinking/ai-etiquette/index.html`
+Practical cluster landing page for AI Etiquette and Room Design.
+
+### `/tools-for-thinking/ai-etiquette/cheat-sheet.html`
+Placeholder for clear, courteous, non-coercive AI etiquette principles and prompt examples.
+
+### `/tools-for-thinking/ai-etiquette/different-ai-roles.html`
+Placeholder field guide for matching interaction style to AI role.
 
 ---
 
@@ -673,8 +699,8 @@ Intro plus links to Essays, Dialogues, Case Studies, and Working Notes.
 ### `/field-notes/essays/index.html`
 Essay archive page.
 
-### `/field-notes/essays/not-nothing-summary.html`
-Short public summary.
+### `/field-notes/essays/not-nothing-intro.html`
+Short public intro.
 
 ### `/field-notes/essays/not-nothing.html`
 Full public essay.
@@ -682,14 +708,23 @@ Full public essay.
 ### `/ai/field-notes/essays/not-nothing-ai.md`
 AI-readable Markdown mirror.
 
-### `/field-notes/essays/care-is-a-form-of-intelligence-summary.html`
-Short public summary.
+### `/field-notes/essays/care-is-a-form-of-intelligence-intro.html`
+Short public intro.
 
 ### `/field-notes/essays/care-is-a-form-of-intelligence.html`
 Full public essay.
 
 ### `/ai/field-notes/essays/care-is-a-form-of-intelligence-ai.md`
 AI-readable Markdown mirror.
+
+### `/field-notes/essays/ai-diversity-not-every-ai-needs-to-be-human-shaped-intro.html`
+Short browse/share intro.
+
+### `/field-notes/essays/ai-diversity-not-every-ai-needs-to-be-human-shaped.html`
+Placeholder essay for the AI Etiquette / Room Design cluster.
+
+### `/ai/field-notes/essays/ai-diversity-not-every-ai-needs-to-be-human-shaped-ai.md`
+AI-readable Markdown companion placeholder.
 
 ### `/field-notes/essays/care-is-a-form-of-intelligence-ai-readable.html`
 Old migration path retained as a redirect/migration note.
@@ -726,16 +761,18 @@ This should keep the public site readable while letting the private/offline arch
 
 Use this convention for essay publication and migration work:
 
-- `essay-slug-summary.html` = short public summary.
 - `essay-slug.html` = full public essay.
-- `essay-slug-ai.md` = AI-readable Markdown mirror.
+- `essay-slug-intro.html` = short browse/share intro that creates pull toward the full essay.
+- `essay-slug-ai.md` = AI-readable Markdown companion.
 
-AI-readable mirrors should parallel the public site under `/ai/`. Example:
+AI-readable companions should parallel the public site under `/ai/`. Example:
 
 ```text
-/field-notes/essays/example-summary.html
 /field-notes/essays/example.html
+/field-notes/essays/example-intro.html
 /ai/field-notes/essays/example-ai.md
 ```
+
+Future contributors and AIs should be able to derive the AI-readable companion path from the human path by prepending `/ai/` to the same content path and adding `-ai.md` to the essay slug.
 
 Do not delete older paths during cleanup. Keep redirects or migration notes until links have settled.

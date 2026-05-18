@@ -29,7 +29,7 @@ Load these in order when context is limited:
 
 1. [`/ai/start.md`](/ai/start.md) — this tiny orientation.
 2. [`/ai/index.md`](/ai/index.md) — broader AI-readable index and traversal map.
-3. [`/ai/scar.md`](/ai/scar.md) — placeholder compressed reference for SCAR terms and cautions.
+3. [`/ai/tools-for-thinking/scar/scar-overview.md`](/ai/tools-for-thinking/scar/scar-overview.md) — compact reference for SCAR terms and cautions.
 
 ---
 

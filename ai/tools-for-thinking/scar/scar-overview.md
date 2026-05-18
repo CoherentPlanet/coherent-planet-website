@@ -11,7 +11,7 @@
 **SCAR** currently expands as:
 
 - **Structure** — what patterns, roles, constraints, affordances, and relations are present.
-- **Cascades** — how changes propagate across a system, interaction, institution, or mind-like pattern.
+- **Coherence** — what kind of organization is active, recurring, calibrated, or at risk of drifting.
 - **Axes** — the dimensions along which a phenomenon varies or can be compared.
 - **Rings** — nested scopes of relevance, from local interaction to wider ecological, institutional, and planetary effects.
 

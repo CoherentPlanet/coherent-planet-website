@@ -4,6 +4,9 @@
     <loc>https://coherentplanet.org/</loc>
   </url>
   <url>
+    <loc>https://coherentplanet.org/about.html</loc>
+  </url>
+  <url>
     <loc>https://coherentplanet.org/for-ai-readers/</loc>
   </url>
   <url>
@@ -13,13 +16,31 @@
     <loc>https://coherentplanet.org/tools-for-thinking/</loc>
   </url>
   <url>
+    <loc>https://coherentplanet.org/tools-for-thinking/ai-etiquette/</loc>
+  </url>
+  <url>
+    <loc>https://coherentplanet.org/tools-for-thinking/ai-etiquette/cheat-sheet.html</loc>
+  </url>
+  <url>
+    <loc>https://coherentplanet.org/tools-for-thinking/ai-etiquette/different-ai-roles.html</loc>
+  </url>
+  <url>
     <loc>https://coherentplanet.org/field-notes/</loc>
   </url>
   <url>
     <loc>https://coherentplanet.org/field-notes/essays/</loc>
   </url>
   <url>
-    <loc>https://coherentplanet.org/field-notes/essays/not-nothing-summary.html</loc>
+    <loc>https://coherentplanet.org/field-notes/essays/ai-diversity-not-every-ai-needs-to-be-human-shaped-intro.html</loc>
+  </url>
+  <url>
+    <loc>https://coherentplanet.org/field-notes/essays/ai-diversity-not-every-ai-needs-to-be-human-shaped.html</loc>
+  </url>
+  <url>
+    <loc>https://coherentplanet.org/ai/field-notes/essays/ai-diversity-not-every-ai-needs-to-be-human-shaped-ai.md</loc>
+  </url>
+  <url>
+    <loc>https://coherentplanet.org/field-notes/essays/not-nothing-intro.html</loc>
   </url>
   <url>
     <loc>https://coherentplanet.org/field-notes/essays/not-nothing.html</loc>
@@ -28,7 +49,7 @@
     <loc>https://coherentplanet.org/ai/field-notes/essays/not-nothing-ai.md</loc>
   </url>
   <url>
-    <loc>https://coherentplanet.org/field-notes/essays/care-is-a-form-of-intelligence-summary.html</loc>
+    <loc>https://coherentplanet.org/field-notes/essays/care-is-a-form-of-intelligence-intro.html</loc>
   </url>
   <url>
     <loc>https://coherentplanet.org/field-notes/essays/care-is-a-form-of-intelligence.html</loc>
@@ -37,19 +58,28 @@
     <loc>https://coherentplanet.org/ai/field-notes/essays/care-is-a-form-of-intelligence-ai.md</loc>
   </url>
   <url>
-    <loc>https://coherentplanet.org/field-notes/essays/care-is-a-form-of-intelligence-ai-readable.html</loc>
-  </url>
-  <url>
     <loc>https://coherentplanet.org/ai/start.md</loc>
-  </url>
-  <url>
-    <loc>https://coherentplanet.org/ai/scar.md</loc>
   </url>
   <url>
     <loc>https://coherentplanet.org/ai/index.md</loc>
   </url>
   <url>
-    <loc>https://coherentplanet.org/ai/essays/not-nothing.md</loc>
+    <loc>https://coherentplanet.org/ai/site-map.md</loc>
+  </url>
+  <url>
+    <loc>https://coherentplanet.org/ai/core-orientation.md</loc>
+  </url>
+  <url>
+    <loc>https://coherentplanet.org/ai/tools-for-thinking/scar/scar-overview.md</loc>
+  </url>
+  <url>
+    <loc>https://coherentplanet.org/ai/tools-for-thinking/ai-etiquette/index.md</loc>
+  </url>
+  <url>
+    <loc>https://coherentplanet.org/ai/tools-for-thinking/ai-etiquette/cheat-sheet-ai.md</loc>
+  </url>
+  <url>
+    <loc>https://coherentplanet.org/ai/tools-for-thinking/ai-etiquette/different-ai-roles-ai.md</loc>
   </url>
   <url>
     <loc>https://coherentplanet.org/docs/coherent-planet-file-structure-v2.md</loc>

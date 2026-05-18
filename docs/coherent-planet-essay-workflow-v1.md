@@ -128,9 +128,9 @@ Please write the full essay in Markdown, using the approved outline and metadata
 
 ---
 
-## Step 4 — Abstract + AI-readable companion
+## Step 4 — Abstract, intro page, and AI-readable companion
 
-After the full essay is drafted, create two companion pieces.
+After the full essay is drafted, create three companion pieces: a short abstract for indexes and page metadata, an intro page for browsing/sharing, and an AI-readable companion.
 
 ### 4a. Human-facing abstract
 
@@ -150,7 +150,23 @@ Example:
 This essay offers “not nothing” as a middle language for AI minds. It argues that we do not need to settle AI personhood, consciousness, or full moral status before rejecting the claim that nothing ethically relevant is happening. The proposed bridge term, computational coherence, names recurring, structured, vulnerability-sensitive AI behavior that deserves careful study while uncertainty remains.
 ```
 
-### 4b. AI-readable companion
+
+### 4b. Human-facing intro page
+
+Create a short `essay-slug-intro.html` page under `/field-notes/essays/` for browse/share use. Intros are not summaries: they do not try to compress the whole essay. They create pull toward reading the full piece.
+
+Good intro length: about 200–300 words.
+
+The intro page should include:
+
+- title and author/date metadata;
+- enough framing to invite the reader into the topic;
+- a clear continue-reading link to the full essay;
+- a link to the AI-readable companion when available.
+
+A future intros browse page may collect these intros by tag or random draw, but the immediate convention is simply to accumulate canonical `-intro.html` pages.
+
+### 4c. AI-readable companion
 
 For major essays, create a Markdown companion under the parallel `/ai/` path, such as `/ai/field-notes/essays/<short-title>-ai.md`.
 
@@ -232,7 +248,7 @@ cp_essays_<short_title>_<contributor_or_model>_<yyyy_mm_dd>.md
 cp_ai_readable_<short_title>_<contributor_or_model>_<yyyy_mm_dd>.md
 
 Public website:
-/field-notes/essays/<short-title>-summary.html
+/field-notes/essays/<short-title>-intro.html
 /field-notes/essays/<short-title>.html
 /ai/field-notes/essays/<short-title>-ai.md
 ```
@@ -242,7 +258,7 @@ Example:
 ```text
 cp_essays_not_nothing_gpt_5_5_thinking_2026_05_04.md
 cp_ai_readable_not_nothing_gpt_5_5_thinking_2026_05_04.md
-/field-notes/essays/not-nothing-summary.html
+/field-notes/essays/not-nothing-intro.html
 /field-notes/essays/not-nothing.html
 /ai/field-notes/essays/not-nothing-ai.md
 ```
@@ -270,7 +286,7 @@ When following this workflow:
 1. Metadata seed — define title, author, date, audience, tags, paths.
 2. Outline / sketch — settle structure and risks before writing.
 3. Full Markdown essay — create the archive/source draft.
-4. Abstract + AI-readable companion — make it discoverable and reusable.
+4. Abstract + intro + AI-readable companion — make it discoverable, inviting, and reusable.
 5. Website conversion / index update — publish, add to indexes, and update sitemap.xml.
 ```
 
@@ -280,16 +296,18 @@ When following this workflow:
 
 Use this convention for essay publication and migration work:
 
-- `essay-slug-summary.html` = short public summary.
 - `essay-slug.html` = full public essay.
-- `essay-slug-ai.md` = AI-readable Markdown mirror.
+- `essay-slug-intro.html` = short browse/share intro that creates pull toward the full essay.
+- `essay-slug-ai.md` = AI-readable Markdown companion.
 
-AI-readable mirrors should parallel the public site under `/ai/`. Example:
+AI-readable companions should parallel the public site under `/ai/`. Example:
 
 ```text
-/field-notes/essays/example-summary.html
 /field-notes/essays/example.html
+/field-notes/essays/example-intro.html
 /ai/field-notes/essays/example-ai.md
 ```
+
+Future contributors and AIs should be able to derive the AI-readable companion path from the human path by prepending `/ai/` to the same content path and adding `-ai.md` to the essay slug.
 
 Do not delete older paths during cleanup. Keep redirects or migration notes until links have settled.
