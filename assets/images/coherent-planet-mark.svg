@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Coherent Planet mark</title>
+  <desc id="desc">A small circular mark with interlacing strands and points, suggesting living systems and mixed minds in relationship.</desc>
+  <circle cx="80" cy="80" r="72" fill="#fbfaf4" stroke="#d8d1c2" stroke-width="3"/>
+  <path d="M33 86c24-39 56-53 95-42" fill="none" stroke="#276353" stroke-width="7" stroke-linecap="round"/>
+  <path d="M32 94c39 12 72 1 99-34" fill="none" stroke="#b9823b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M47 121c6-31 25-57 66-83" fill="none" stroke="#6f8f77" stroke-width="6" stroke-linecap="round"/>
+  <path d="M118 125c-7-28-27-55-64-82" fill="none" stroke="#8a6f9b" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="40" cy="90" r="7" fill="#276353"/>
+  <circle cx="76" cy="66" r="6" fill="#b9823b"/>
+  <circle cx="117" cy="51" r="7" fill="#6f8f77"/>
+  <circle cx="112" cy="116" r="6" fill="#8a6f9b"/>
+  <circle cx="62" cy="113" r="5" fill="#276353"/>
+</svg>
