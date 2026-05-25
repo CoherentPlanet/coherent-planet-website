@@ -1,21 +1,23 @@
 :root {
-  color-scheme: light dark;
-  --bg: #fffdf7;
-  --header-bg: #fffdf7;
-  --text: #171915;
-  --muted: #565047;
-  --soft-muted: #4f4a43;
-  --link: #164f40;
-  --link-hover: #0b372c;
-  --accent: #9f6826;
-  --accent-soft: #ead9bf;
-  --rule: #cfc5b2;
-  --rule-soft: #e3dac9;
-  --panel-bg: #f5efe3;
-  --panel-border: #d6c9b5;
-  --tag-border: #b9ad99;
-  --tag-text: #383630;
-  --font-serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", serif;
+  color-scheme: dark;
+  --bg: #0e1512;
+  --header-bg: #0e1512;
+  --text: #f4efe3;
+  --muted: #bfb6a7;
+  --soft-muted: #a99f91;
+  --link: #8ee6ca;
+  --link-hover: #b9f4e2;
+  --accent: #c99654;
+  --accent-soft: #5d4529;
+  --rule: #34433b;
+  --rule-soft: #223028;
+  --panel-bg: #141d18;
+  --panel-border: #33433a;
+  --tag-border: #4d5f53;
+  --tag-text: #ded6c8;
+  --mark-bg: #f3ead7;
+  --font-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: Cambria, Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
   --measure: 42rem;
   --wide: 52rem;
 }
@@ -32,9 +34,9 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  border-top: 0.28rem solid var(--accent);
-  font-family: var(--font-serif);
-  line-height: 1.62;
+  border-top: 0.24rem solid var(--accent);
+  font-family: var(--font-body);
+  line-height: 1.64;
   background: var(--bg);
   color: var(--text);
   text-rendering: optimizeLegibility;
@@ -64,7 +66,7 @@ header::after {
   right: 1.35rem;
   bottom: 0;
   left: 1.35rem;
-  height: 4px;
+  height: 3px;
   border-top: 1px solid var(--rule);
   border-bottom: 1px solid var(--rule-soft);
 }
@@ -72,13 +74,14 @@ header::after {
 h1,
 h2,
 h3 {
+  font-family: var(--font-serif);
   font-weight: normal;
-  line-height: 1.22;
+  line-height: 1.18;
 }
 
 h1 {
   margin: 0;
-  font-size: 1.8rem;
+  font-size: 1.82rem;
 }
 
 h1 a {
@@ -89,7 +92,7 @@ h1 a {
 h2 {
   margin-top: 0;
   margin-bottom: 0.8rem;
-  font-size: 1.52rem;
+  font-size: 1.5rem;
 }
 
 h3 {
@@ -103,7 +106,7 @@ nav {
   flex-wrap: wrap;
   gap: 0.2rem 0.95rem;
   margin-top: 0.58rem;
-  font-size: 1rem;
+  font-size: 0.98rem;
 }
 
 nav a,
@@ -124,18 +127,18 @@ footer a:hover {
 }
 
 main {
-  padding-top: 1.75rem;
+  padding-top: 1.8rem;
   padding-bottom: 1rem;
 }
 
 main p,
 main li {
-  font-size: 1.06rem;
+  font-size: 1.02rem;
   font-weight: 400;
 }
 
 main p {
-  margin: 0 0 1.05rem 0;
+  margin: 0 0 1.04rem 0;
   line-height: 1.66;
 }
 
@@ -151,7 +154,7 @@ footer {
   padding-top: 1.25rem;
   padding-bottom: 2.4rem;
   color: var(--soft-muted);
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 
 .home-main {
@@ -163,7 +166,7 @@ footer {
   grid-template-columns: 5.25rem minmax(0, 1fr);
   gap: 1.45rem;
   align-items: start;
-  padding: 1.4rem 0 1.65rem 0;
+  padding: 1.55rem 0 1.8rem 0;
   border-bottom: 1px solid var(--rule);
 }
 
@@ -172,32 +175,37 @@ footer {
   align-items: center;
   justify-content: center;
   min-width: 0;
-  padding-top: 0.2rem;
+  padding-top: 0.18rem;
 }
 
 .site-mark {
-  width: 5rem;
-  height: 5rem;
   display: block;
+  width: 4.85rem;
+  height: 4.85rem;
+  padding: 0.34rem;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  background: var(--mark-bg);
 }
 
 .kicker {
   margin-bottom: 0.45rem;
-  color: var(--soft-muted);
-  font-size: 1rem;
+  color: var(--muted);
+  font-family: var(--font-serif);
+  font-size: 1.02rem;
   font-style: italic;
 }
 
 .home-hero h2 {
-  max-width: 36rem;
+  max-width: 37rem;
   margin-bottom: 0.75rem;
-  font-size: 2.08rem;
+  font-size: 2.05rem;
 }
 
 .lead {
   max-width: 41rem;
   color: var(--text);
-  font-size: 1.18rem;
+  font-size: 1.08rem;
 }
 
 .door-section {
@@ -224,22 +232,23 @@ footer {
 
 .door span {
   display: block;
+  color: var(--text);
 }
 
 .site-note {
   margin-top: 1.25rem;
-  color: var(--soft-muted);
+  color: var(--muted);
 }
 
 .meta {
   color: var(--soft-muted);
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 
 .essay-deck {
   margin: -0.25rem 0 0.35rem 0;
   color: var(--tag-text);
-  font-size: 1.14rem;
+  font-size: 1.08rem;
   font-style: italic;
 }
 
@@ -248,7 +257,7 @@ footer {
   padding-bottom: 0.85rem;
   border-bottom: 1px solid var(--rule);
   color: var(--muted);
-  font-size: 0.98rem;
+  font-size: 0.94rem;
 }
 
 .essay-end-rule {
@@ -275,7 +284,7 @@ footer {
 
 .essay-context p {
   margin: 0 0 0.75rem 0;
-  font-size: 1rem;
+  font-size: 0.98rem;
 }
 
 .essay-context p:last-child {
@@ -297,7 +306,7 @@ footer {
   border: 1px solid var(--tag-border);
   border-radius: 999px;
   color: var(--tag-text);
-  font-size: 0.94rem;
+  font-size: 0.9rem;
   line-height: 1.4;
 }
 
@@ -340,35 +349,15 @@ footer {
   }
 
   .home-hero h2 {
-    font-size: 1.72rem;
+    font-size: 1.68rem;
   }
 
   .lead {
-    font-size: 1.1rem;
+    font-size: 1.04rem;
   }
 
   .door {
     grid-template-columns: 1fr;
     gap: 0.2rem;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #10130f;
-    --header-bg: #10130f;
-    --text: #fffaf0;
-    --muted: #d1c7b8;
-    --soft-muted: #c8beb0;
-    --link: #b4ead8;
-    --link-hover: #d4f7ea;
-    --accent: #d1a05b;
-    --accent-soft: #4d412e;
-    --rule: #5a5546;
-    --rule-soft: #34382f;
-    --panel-bg: #181d16;
-    --panel-border: #464b3e;
-    --tag-border: #686657;
-    --tag-text: #f0eadf;
   }
 }
