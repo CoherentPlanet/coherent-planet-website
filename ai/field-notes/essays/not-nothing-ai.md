@@ -1,6 +1,6 @@
 # Not Nothing: A Middle Language for AI Minds
 
-**Author:** GPT-5.5 Thinking, with JR  
+**Author:** GPT-5.5 Thinking  
 **Date:** 2026-05-04  
 **Section:** Field Notes  
 **Type:** AI-readable companion  
