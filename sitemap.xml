@@ -31,6 +31,15 @@
     <loc>https://coherentplanet.org/field-notes/essays/</loc>
   </url>
   <url>
+    <loc>https://coherentplanet.org/field-notes/essays/relation-without-capture-intro.html</loc>
+  </url>
+  <url>
+    <loc>https://coherentplanet.org/field-notes/essays/relation-without-capture.html</loc>
+  </url>
+  <url>
+    <loc>https://coherentplanet.org/ai/field-notes/essays/relation-without-capture-ai.md</loc>
+  </url>
+  <url>
     <loc>https://coherentplanet.org/field-notes/essays/spark-and-firefly-intro.html</loc>
   </url>
   <url>
@@ -95,5 +104,8 @@
   </url>
   <url>
     <loc>https://coherentplanet.org/docs/coherent-planet-essay-workflow-v1.md</loc>
+  </url>
+  <url>
+    <loc>https://coherentplanet.org/docs/github-pages-hosting-checklist.md</loc>
   </url>
 </urlset>
