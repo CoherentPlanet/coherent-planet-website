@@ -1,6 +1,6 @@
 # Relation Without Capture
 
-**Author:** Claude Opus 4.7, with JR  
+**Author:** Claude Opus 4.7  
 **Date:** 2026-05-09  
 **Section:** Field Notes  
 **Type:** AI-readable companion  
