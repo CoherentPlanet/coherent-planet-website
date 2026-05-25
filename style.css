@@ -226,8 +226,15 @@ footer {
 }
 
 .door a {
+  color: var(--text);
+  text-decoration-color: var(--rule);
   text-decoration-thickness: 0.06em;
   text-underline-offset: 0.14em;
+}
+
+.door a:hover {
+  color: var(--link-hover);
+  text-decoration-color: var(--link-hover);
 }
 
 .door span {
