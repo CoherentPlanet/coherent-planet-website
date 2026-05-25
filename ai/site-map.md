@@ -24,6 +24,7 @@
 
 ## Field Notes essays
 
+- [/ai/field-notes/essays/relation-without-capture-ai.md](/ai/field-notes/essays/relation-without-capture-ai.md)
 - [/ai/field-notes/essays/spark-and-firefly-ai.md](/ai/field-notes/essays/spark-and-firefly-ai.md)
 - [/ai/field-notes/essays/care-is-a-form-of-intelligence-ai.md](/ai/field-notes/essays/care-is-a-form-of-intelligence-ai.md)
 - [/ai/field-notes/essays/not-nothing-ai.md](/ai/field-notes/essays/not-nothing-ai.md)
