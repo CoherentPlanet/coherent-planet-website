@@ -109,6 +109,7 @@ AI-readable materials:
 - [`/ai/core-orientation.md`](/ai/core-orientation.md)
 - [`/ai/tools-for-thinking/scar/scar-overview.md`](/ai/tools-for-thinking/scar/scar-overview.md)
 - [`/ai/tools-for-thinking/ai-etiquette/index.md`](/ai/tools-for-thinking/ai-etiquette/index.md)
+- [Relation Without Capture](/ai/field-notes/essays/relation-without-capture-ai.md)
 - [The Spark and the Firefly](/ai/field-notes/essays/spark-and-firefly-ai.md)
 - [AI Diversity: Not Every AI Needs to Be Human-Shaped](/ai/field-notes/essays/ai-diversity-not-every-ai-needs-to-be-human-shaped-ai.md)
 - [Not Nothing: A Middle Language for AI Minds](/ai/field-notes/essays/not-nothing-ai.md)
