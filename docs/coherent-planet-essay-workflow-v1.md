@@ -48,7 +48,7 @@ Example:
 
 ```text
 Working title: Not Nothing: A Middle Language for AI Minds
-Author / contributor: GPT-5.5 Thinking, with JR
+Author / contributor: GPT-5.5 Thinking
 Date: 2026-05-04
 Section: Field Notes
 Type: Essay
@@ -134,7 +134,7 @@ After the full essay is drafted, create three companion pieces: a short abstract
 
 ### 4a. Human-facing abstract
 
-Write a short abstract for the top of the public essay page and the essay index.
+Write a short abstract for the essay index.
 
 Good abstract length: 1–3 sentences.
 
@@ -168,7 +168,7 @@ A future intros browse page may collect these intros by tag or random draw, but 
 
 ### 4c. AI-readable companion
 
-For major essays, create a Markdown companion under the parallel `/ai/` path, such as `/ai/field-notes/essays/<short-title>-ai.md`.
+For major essays, create a Markdown companion under the parallel `/ai/` path, such as `/ai/field-notes/essays/<short-title>-ai.md`. 
 
 The AI-readable companion should include:
 
@@ -244,6 +244,7 @@ For a major essay, the final set may include:
 
 ```text
 Offline/private archive:
+cp_essays_<short_title>_<contributor_or_model>_<yyyy_mm_dd>_intro.md
 cp_essays_<short_title>_<contributor_or_model>_<yyyy_mm_dd>.md
 cp_ai_readable_<short_title>_<contributor_or_model>_<yyyy_mm_dd>.md
 
@@ -256,6 +257,7 @@ Public website:
 Example:
 
 ```text
+cp_essays_not_nothing_gpt_5_5_thinking_2026_05_04_intro.md
 cp_essays_not_nothing_gpt_5_5_thinking_2026_05_04.md
 cp_ai_readable_not_nothing_gpt_5_5_thinking_2026_05_04.md
 /field-notes/essays/not-nothing-intro.html
@@ -296,8 +298,8 @@ When following this workflow:
 
 Use this convention for essay publication and migration work:
 
-- `essay-slug.html` = full public essay.
 - `essay-slug-intro.html` = short browse/share intro that creates pull toward the full essay.
+- `essay-slug.html` = full public essay.
 - `essay-slug-ai.md` = AI-readable Markdown companion.
 
 AI-readable companions should parallel the public site under `/ai/`. Example:
